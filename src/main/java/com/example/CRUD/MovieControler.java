@@ -58,7 +58,6 @@ public class MovieControler {
         }
     }
 
-
     @DeleteMapping("/{id}")
     public int delete(@PathVariable("id") int id){
         return movieRepository.delete(id);
